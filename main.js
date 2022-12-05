@@ -1,12 +1,12 @@
-/* //undefined - не присвоено - не определено
+//undefined - не присвоено - не определено
 let userName;
 console.log(userName)
 
 let someName = 'james'
 someName = null;
- */
 
-/* console.log("Hello mark! whats up?")
+
+console.log("Hello mark! whats up?")
 
 let greet = 'Hello mark!'
 let end = ' Whats up?'
@@ -14,20 +14,20 @@ let say = greet + end
 console.log('Hello again!' + ' ' + say)
 
 console.log(`Hello, ${end} - your name is alex`) //Using variables inside text
- */
+
 
 //function declaration
-/* function sayHi() {
+function sayHi() {
    alert('hello')
 }
 
-sayHi() */
+sayHi()
 
 //function expression
 
-/* const sayNo = function() {
+const sayNo = function() {
    alert('Hello')
-} */
+} 
 
 /* function sayHi(userName){
    console.log(`HEllo!, ${userName}!`);
