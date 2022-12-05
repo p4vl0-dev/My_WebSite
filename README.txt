@@ -27,8 +27,10 @@ To make commites and updating repository:
    2. git add . - local update files
       (for example: git add README.txt - adding file to file directory)
    3. git commit -m "Your commit" - message what u see in git hub, about update
-   4. git push -u name_repos main (or nothing tree line) - update files on git hub and sending updates to github repository
-   4. a) git push name_repo main --force (Other way to send commits)
+      a. git commit - after this command will opened window, where you can add text to commit and change list of files.
+      b. commands: i - insert, :wq - exit
+   4. git push -u name_repos name_branch (or nothing tree line) - update files on git hub and sending updates to github repository
+   4. a) git push name_repo name_branch --force (Other way to send commits)
 
 Another commands:
    1. git remote - showing list of repositories (them names).
